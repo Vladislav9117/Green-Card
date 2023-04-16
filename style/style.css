@@ -1,0 +1,38 @@
+body{
+    background-image: url(../img/green\ card.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.content{
+    margin: 10px;
+    padding:10px;  
+}
+.holder{
+    background-color: aliceblue;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+}
+.wrapper{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    margin-left:180px;
+}
+.saved{
+    margin-right: 200px;
+}
+.width{
+    width: 170px;
+    height: 20px;
+}

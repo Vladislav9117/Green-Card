@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container holder">
+        <h1 class="title">Green Card</h1>
+        <div class="content">
+            <form action="https://echo.htmlacademy.ru">
+                <fieldset>
+                    <Legend>User</Legend>
+                <div class="wrapper">
+                        <label for="neme">Neme</label>
+                    <input type="text" name="userNeme" placeholder="Enter your userneme..." id="neme"/>
+                </div>
+                <div class="wrapper">
+                        <label for="surneme">Sur Neme</label>
+                    <input type="text" name="surNeme" placeholder="Enter your surneme..." id="surneme"/>
+                </div>
+                <div class="wrapper">
+                        <label for="phone">Phon Number</label>
+                    <input type="tel" name="phoneNumber" placeholder="Enter your phone number..." id="phone">
+                </div>
+                <div class="wrapper">
+                        <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="Enter your email..." id="email">
+                </div>
+                <div class="wrapper">
+                        <label for="date">Your Brithday</label>
+                    <input class="width" type="date" name="date" id="date">
+                </div>
+                <div class="wrapper">
+                        <label for="file">Your File</label>
+                    <input class="width" type="file" name="fileUpload" id="file">
+                </div>
+                <div class="wrapper">
+                        <label for="gender">What's your gender</label>
+                        <div>
+                        <label>Men</label>
+                    <input class="floor" type="radio" name="gender" value="male" id="gender">
+                        <label>Woman</label>
+                    <input class="floor" type="radio" name="gender" value="female" id="gender">
+                        </div>
+                </div>
+                <div class="wrapper">
+                        <label for="color">Favorite color</label>
+                    <input class="width" type="color" name="color" id="color">
+                </div>
+                <div class="wrapper">
+                        <label for="car">Car Choice</label>
+                <select class="width" name="car" id="car">
+                    <option value="BMW M5E60">BMW M5E60</option>
+                    <option value="Nissan Skyline R34">Nissan Skyline R34</option>
+                    <option value="Toyota Supra MK4">Toyota Supra MK4</option>
+                    <option value="Toyota Silvia S15">Toyota Silvia S15</option>
+                    <option value="Mazda RX7">Mazda RX7</option>
+                </select>
+                </div>
+                <div class="wrapper">
+                    <label for="sellers">Sellers</label>
+                <select class="width" name="sellers" id="sellers">
+                    <option value="Kiidiro Toyoda">Kiidiro Toyoda</option>
+                    <option value="Jujiro Matsuda">Jujiro Matsuda</option>
+                    <option value="Daimler Benz">Daimler Benz</option>
+                    <option value="Rapp Carl Friedrich">Rapp Carl Friedrich</option>
+                </select>
+                </div>
+                <div class="wrapper">
+                    <label for="biography">Your Biography</label>
+                    <textarea name="biography" placeholder="Enter your biography..." id="biography" cols="30" rows="10"></textarea>
+                </div>
+                <div class="wrapper">
+                        <label for="Saved">Saved File</label>
+                    <input class="saved" type="checkbox" name="isSaved" id="saved">
+                </div>
+                    <button class="text" type="submit">Send</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
